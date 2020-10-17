@@ -5,6 +5,7 @@ import polyinterface
 from nuvo_factory import nuvo_factory
 import concerto
 import essentia
+import simplese
 from dotenv import load_dotenv
 
 if __name__ == "__main__":
