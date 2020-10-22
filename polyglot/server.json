@@ -3,7 +3,7 @@
   "docs": "http://www.layerspark.com/nuvo-polyglot",
   "type": "python3",
   "executable": "nuvo_poly.py",
-  "install": "install.py",
+  "install": "install.sh",
   "shortPoll": "30",
   "longPoll": "600",
   "description": "Connect Nuvo Audio Controller to the ISY994.",
