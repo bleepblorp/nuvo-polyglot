@@ -88,9 +88,9 @@ class SimpleseController(polyinterface.Controller):
 
     def discover(self, *args, **kwargs):
         """
-        Add 6 zones
+        Add 4 zones
         """
-        for x in range(1,7):
+        for x in range(1,5):
             name = "Zone {}".format(str(x))
             address = "z0{0}".format(str(x))
             LOGGER.info("Adding {} {} and client".format(name,address))
